@@ -1,0 +1,54 @@
+{
+  "name": "d3-threshold-graph",
+  "description": "Threshold Graph",
+  "version": "1.0.0",
+  "author": "Abhijit Rao",
+  "bugs": {
+    "url": "https://github.com/abhijit945/d3-threshold-graph/issues"
+  },
+  "dependencies": {
+    "d3": "^5.15.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "@babel/preset-react": "^7.0.0",
+    "gh-pages": "^2.2.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-intl": "^2.8.0",
+    "react-scripts": "^3.3.1"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "homepage": "https://abhijit945.github.io/d3-threshold-graph/",
+  "keywords": [
+    "d3"
+  ],
+  "license": "Apache-2.0",
+  "main": "./dist/index.js",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhijit945/d3-threshold-graph.git"
+  },
+  "scripts": {
+    "build": "babel src --out-dir dist --copy-files",
+    "deploy": "gh-pages -d public",
+    "lint": "eslint src",
+    "start": "react-scripts start"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
