@@ -7,7 +7,7 @@
     "url": "https://github.com/abhijit945/d3-threshold-graph/issues"
   },
   "dependencies": {
-    "d3": "^5.15.0"
+    "d3": "^5.16.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.6.0",
